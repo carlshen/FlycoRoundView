@@ -1,4 +1,9 @@
 #FlycoRoundView
+
+升级到android 10, sdk29.
+
+感谢原作者的分享。
+
 A library helps Android built-in views easy and convenient to set round rectangle background and accordingly related shape resources can be reduced.
 一个扩展原生控件支持圆角矩形框背景的库,可以减少相关shape资源文件使用.
 ##Demo

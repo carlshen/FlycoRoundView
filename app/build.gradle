@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "com.flyco.RoundViewSample"
-        minSdkVersion 8
-        targetSdkVersion 23
+        minSdkVersion 19
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -21,7 +21,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'androidx.appcompat:appcompat:1.0.0'
 //    compile 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
     compile project(':FlycoRoundView_Lib')
 }
